@@ -22,7 +22,7 @@ from flask import Flask, request
 import telepot
 
 app = Flask(__name__)
-bot = telepot.Bot('ТВОЙ_ТОКЕН')
+bot = telepot.Bot(AAHGha80jDa9EA8km5QlaKiCV937QmFJnr8)
 
 # Настройка логирования
 logging.basicConfig(level=logging.DEBUG)
